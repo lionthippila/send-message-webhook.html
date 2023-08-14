@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="bot.js" async></script>
+</head>
+<body>
+    <div class="backgrourd-img">
+        <div class="container">
+            <div class="box-test">
+                <div class="box-shadow">
+                    <div class="box-img">
+                        <img src="https://cdn.discordapp.com/attachments/732556321169342517/1110205781736951808/6729AC8C-3B2A-4EDD-8EBA-E47777CB94BE.jpg" alt="">
+                    </div>
+                    <div class="box-one">
+                        <div class="box-control">
+                            <label for="username">Username : </label>
+                            <input type="text" id="username">
+                        </div>
+                        <div class="box-control">
+                            <label for="content">Message : </label>
+                            <input id="content"></input>
+                        </div>
+                        <div class="box-file">
+                            <label for="fileInput" class="upload-btn">เลือกไฟล์</label>
+                            <input type="file" id="fileInput">
+                        </div>
+                        <div class="box-control">
+                            <button onclick="sendMessage()">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
